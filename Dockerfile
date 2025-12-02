@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . .
 COPY --from=installer /app/node_modules ./node_modules
 
-RUN pnpm run build
+RUN npm run build
 
 FROM caddy:alpine
 COPY --from=builder /app/dist /srv
