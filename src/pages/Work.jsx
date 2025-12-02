@@ -1,50 +1,42 @@
 const WORKS_DATA = [
   {
     id: 1,
-    title: "Slimepay Finance Platform",
-    description: "A comprehensive fintech platform for seamless payments and financial management across Nigeria.",
-    image: "https://via.placeholder.com/600x400/4A90E2/FFFFFF?text=Slimepay",
-    technologies: ["React", "Node.js", "PostgreSQL", "AWS"],
+    title: "Automated Crypto Trading Bot",
+    description: "An intelligent trading bot that analyzes cryptocurrency tokens using advanced algorithms to determine optimal trading opportunities and executes trades automatically.",
+    image: "/work/trading-bot-video-2.gif",
+    technologies: ["Typescript", "Helius RPC", "NodeJS", "Data Analysis"],
     link: "#"
   },
   {
     id: 2,
-    title: "audIT Management System",
-    description: "Enterprise audit management software with advanced reporting and compliance tracking capabilities.",
-    image: "https://via.placeholder.com/600x400/28a745/FFFFFF?text=audIT",
-    technologies: ["Vue.js", "Python", "MongoDB", "Docker"],
+    title: "Duft Lab",
+    description: "A minimalistic and elegant ecommerce platform designed for premium perfume sales, featuring clean design and seamless shopping experience.",
+    image: "/work/duftlab-1.jpg",
+    technologies: ["React", "Node.js", "Typescript", "MongoDB", "Stripe"],
     link: "#"
   },
   {
     id: 3,
-    title: "Cytecode Developer Portal",
-    description: "Modern developer portal with API documentation, code examples, and interactive testing tools.",
-    image: "https://via.placeholder.com/600x400/dc3545/FFFFFF?text=Cytecode",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+    title: "WP Fashion Store",
+    description: "A fully functional ecommerce website built for a fashion brand, featuring modern design, product catalog, and complete shopping functionality.",
+    image: "/work/w2p-image.png",
+    technologies: ["React", "NodeJs", "RabbitMQ", "Typescript", "Docker"],
     link: "#"
   },
   {
     id: 4,
-    title: "E-commerce Dashboard",
-    description: "Analytics dashboard for online retailers with real-time sales tracking and inventory management.",
-    image: "https://via.placeholder.com/600x400/fd7e14/FFFFFF?text=Dashboard",
-    technologies: ["React", "D3.js", "Express", "Redis"],
+    title: "Winewave",
+    description: "An sophisticated ecommerce platform for selling luxury wines, featuring elegant design and premium user experience for wine enthusiasts.",
+    image: "/work/winewave-2.png",
+    technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
     link: "#"
   },
   {
     id: 5,
-    title: "Portfolio Website Builder",
-    description: "Drag-and-drop website builder specifically designed for creative professionals and developers.",
-    image: "https://via.placeholder.com/600x400/6f42c1/FFFFFF?text=Portfolio",
-    technologies: ["React", "Framer Motion", "Supabase", "Stripe"],
-    link: "#"
-  },
-  {
-    id: 6,
-    title: "Learning Management System",
-    description: "Educational platform with video streaming, progress tracking, and interactive assignments.",
-    image: "https://via.placeholder.com/600x400/20c997/FFFFFF?text=LMS",
-    technologies: ["Angular", "NestJS", "MySQL", "WebRTC"],
+    title: "Crane Company Website",
+    description: "A professional corporate website for a crane company showcasing services, equipment, and company capabilities with modern design and functionality.",
+    image: "/work/crane-company-website.mp4",
+    technologies: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
     link: "#"
   }
 ]
@@ -53,23 +45,27 @@ export default function Work() {
   return (
     <div className="page-container">
       <section className="work-page">
-        <h1 className="work-page-title">My Work</h1>
+        <h3 className="work-page-title">Some Of My Work</h3>
         <p className="work-page-description">
-          A collection of projects I've worked on, from fintech platforms to developer tools.
+          A collection of A FEW projects I've worked on.
         </p>
         <div className="work-grid">
           {WORKS_DATA.map((project) => (
             <div key={project.id} className="work-card">
               <div className="work-image">
-                <img src={project.image} alt={project.title} />
+                {project.image.endsWith('.mp4') ? (
+                  <video src={project.image} autoPlay muted loop playsInline />
+                ) : (
+                  <img src={project.image} alt={project.title} />
+                )}
                 <div className="work-overlay">
-                  <div className="work-overlay-content">
-                    <h3 className="work-overlay-title">{project.title}</h3>
+                  <div className="work-hover-content">
                     <p className="work-overlay-description">{project.description}</p>
                     <div className="work-overlay-technologies">
                       {project.technologies.join(' • ')}
                     </div>
                   </div>
+                  <h4 className="work-title-always">{project.title}</h4>
                 </div>
               </div>
             </div>

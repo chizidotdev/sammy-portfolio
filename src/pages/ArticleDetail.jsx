@@ -5,35 +5,72 @@ const ARTICLES_DATA = [
     id: 1,
     title: "Kill The NPC",
     category: "Life",
-    description: "Hi, I'm Samuel, a software developer and design engineer based in Port Harcourt, Nigeria.",
-    content: "I solve unique business problems for startups and business owners in finance and commerce. My projects are often focused on design systems, accessibility, typography, and animations. Currently, I work with founders and business owners looking to build and scale their ideas with software solutions. If that sounds like you, let's connect!",
+    description: "God said 'Thou shalt not kill,' then told his people to wipe out entire nations. Those people didn't matter to the story.",
+    content: "They were NPCs. Most people are NPCs and they have no idea. They wake up, go to work, do whatever their boss tells them, come home, watch Netflix, sleep, repeat. They're not good at anything specific. If they disappeared tomorrow, nothing would change.",
     fullContent: `
-      <p>Breaking free from the NPC mindset is one of the most crucial steps in personal and professional development. As a software developer and design engineer, I've observed how easy it is to fall into automated patterns of thinking and behavior.</p>
+      <p>"Thou shalt not kill." - Exodus 20:13</p>
       
-      <h3>What Does It Mean to Be an NPC?</h3>
-      <p>In gaming, NPCs (Non-Player Characters) are programmed entities that follow predetermined scripts. They react predictably to stimuli and lack the agency to make meaningful choices. Unfortunately, many of us operate similarly in real life.</p>
+      <p>God commanded his children - Do not kill, but then you keep reading the Bible and God's telling his people to go wipe out entire nations. The Canaanites, the Philistines, the Amalekites. All gone. And you're like, wait, what happened to "thou shalt not kill"? Here's the thing though. Those people didn't matter to the story. Whether they lived or died, nothing changed. They were NPCs.</p>
       
-      <h3>The Developer's Dilemma</h3>
-      <p>As developers, we're trained to think systematically and follow patterns. While this serves us well in coding, it can become a trap in other areas of life. We might find ourselves:</p>
-      <ul>
-        <li>Following the same routines without questioning their effectiveness</li>
-        <li>Accepting industry norms without challenging them</li>
-        <li>Building what's expected rather than what's needed</li>
-      </ul>
+      <p>In video games, there are two types of characters: the ones you control, and the ones that just exist in the background. Those background characters are called NPCs, Non-Player Characters. They're the shopkeeper who says the same three lines every time you talk to him. The guard standing at the gate who never moves. The villagers who walk in circles doing nothing important. They're there, but they don't matter. The game would be exactly the same if they disappeared.</p>
       
-      <h3>Breaking the Pattern</h3>
-      <p>The solution isn't to abandon structure entirely, but to become more intentional about our choices. When working with startups and business owners in finance and commerce, I've learned that the most innovative solutions come from questioning assumptions.</p>
+      <p>Now look around at real life.</p>
+                  
+      <p>Every religion has this same idea buried in it. Some people matter. Some people don't. And it's not about where you were born or how much money you have. It's about whether you decided to be good at something or just stayed comfortable being nobody.</p>
       
-      <p>My focus on design systems, accessibility, and animations stems from this philosophy. Each element should have a purpose beyond mere aesthetics or convention.</p>
+      <p>Most people are NPCs and they have no idea. They wake up, go to work, do whatever their boss tells them, come home, watch Netflix, sleep, repeat. They're not good at anything specific. They're not known for anything. If you asked them what makes them different from anyone else, they'd probably say something generic like "I'm a good person" or "I work hard." Cool. So does everyone else.</p>
       
-      <h3>The Path Forward</h3>
-      <p>If you're looking to build and scale ideas with software solutions, the first step is killing your inner NPC. Question everything, challenge norms, and build with intention.</p>
+      <p>And honestly? If they disappeared tomorrow, nothing would change. Someone else would do their job. Their friends would be sad for a bit and then move on. Life would continue exactly the same. That's an NPC. Someone who's alive but not really doing anything with it.</p>
       
-      <p>Ready to break free from the script? Let's connect and create something meaningful together.</p>
+      <p>The uncomfortable truth is that most people are like this. They're just existing. Going through the motions. Doing what they're told. Never building anything. Never mastering anything. Just coasting.</p>
+      
+      <p>And look, I get it. It's comfortable. It's safe. You don't have to risk failing if you never really try. But that's also how you end up being 40 years old with nothing to show for it except some bills and a job you hate.</p>
+      
+      <p>Here's what makes someone not an NPC: being really good at something. That's it. It doesn't even matter what it is. You could be an amazing engineer. You could be the best barber in your city. You could make the best jollof rice anyone's ever tasted. Just be the person people think of when they need that thing done right.</p>
+      
+      <p>But most people never get there because they don't commit. They try something for two weeks and quit. They tell themselves they'll start next month. They're waiting for motivation or the perfect time or whatever. And they stay average forever.</p>
+      
+      <p>The version of you that's okay with being average? Kill that guy. I'm serious. That's the only person you need to get rid of. Because as long as you're listening to that voice that says "it's fine to be mediocre," you're going to stay an NPC.</p>
+      
+      <p>What does killing your inner NPC actually look like? It's picking something and sticking with it until you're actually good. Not kind of good. Actually good. Good enough that people notice. It's showing up every day even when you're tired. It's failing and not quitting. It's being so undeniable at something that people can't ignore you.</p>
+      
+      <p>Most people won't do this. They'll read this, think "yeah that makes sense," and then go back to doing exactly what they were doing before. They'll keep waiting. Keep making excuses. Keep telling themselves they'll start eventually. And they'll die as background characters.</p>
+      
+      <p>But maybe you're different. Maybe you're actually tired of being invisible. Maybe you're ready to stop talking and start building.</p>
+      
+      <p>So what are you going to be great at? What are you actually building? What's going to make people remember you?</p>
+      
+      <p>Because here's what nobody wants to admit: the world has enough NPCs. It doesn't need more people just existing and taking up space. It needs people who...</p>
+      
+      <p><em>[This article is still being written. Check back soon.]</em></p>
     `
   },
   {
     id: 2,
+    title: "Sit on the Floor, Stand on the Chair",
+    category: "Life",
+    description: "You have free will. Like, actually. You can do basically anything you want right now and nobody can stop you.",
+    content: "You could quit your job tomorrow. You could move to a different city next week. You could start learning Japanese today. You could delete all your social media. You could eat pizza for breakfast. You could tell that person you like them. You could start that business idea you've been thinking about for three years.",
+    fullContent: `
+      <p>Sit on the floor. Stand on the chair.</p>
+      
+      <p>You have free will. Like, actually. You can do basically anything you want right now and nobody can stop you.</p>
+      
+      <p>You could quit your job tomorrow. You could move to a different city next week. You could start learning Japanese today. You could delete all your social media. You could eat pizza for breakfast. You could tell that person you like them. You could start that business idea you've been thinking about for three years.</p>
+      
+      <p>The only reason you're not doing any of these things is because you decided not to. Not because you can't. Because you chose not to.</p>
+      
+      <p>And that's the weird part about free will that nobody talks about. We have it, but most of us don't use it. We just do what we're supposed to do. Wake up at the same time. Go to the same job. Hang out with the same people. Eat the same food. Watch the same shows. Repeat.</p>
+      
+      <p>We act like we're trapped, but we're not. We're just comfortable. And comfort is the biggest trap of all because it doesn't feel like a trap. It feels safe.</p>
+      
+      <p>But here's the thing about free will. It's not just about being able to do whatever you want. It's about...</p>
+      
+      <p><em>[This article is still being written. Check back soon.]</em></p>
+    `
+  },
+  {
+    id: 3,
     title: "Building Scalable React Applications",
     category: "Development",
     description: "A deep dive into creating maintainable and scalable React applications using modern best practices.",
@@ -86,17 +123,17 @@ src/
         <li>Consider server-side rendering for better initial load times</li>
       </ul>
       
-      <p>Remember, scalability isn't just about handling more users—it's about maintaining developer productivity and code quality as your team and codebase grow.</p>
+      <p>Remember, scalability isn't just about handling more users - it's about maintaining developer productivity and code quality as your team and codebase grow.</p>
     `
   },
   {
-    id: 3,
+    id: 4,
     title: "The Art of UI Animation",
     category: "Design",
     description: "How thoughtful animations can transform user experience and create delightful interfaces.",
     content: "Animation in UI design isn't just about making things look pretty - it's about creating meaningful interactions that guide users through your application. This article explores the psychology behind motion design and provides practical techniques for implementing animations that enhance rather than distract.",
     fullContent: `
-      <p>Animation in user interfaces is often misunderstood. Too many developers treat it as decoration—something to add visual flair after the "real work" is done. But thoughtful animation is a powerful communication tool that can dramatically improve user experience.</p>
+      <p>Animation in user interfaces is often misunderstood. Too many developers treat it as decoration - something to add visual flair after the "real work" is done. But thoughtful animation is a powerful communication tool that can dramatically improve user experience.</p>
       
       <h3>The Psychology of Motion</h3>
       <p>Human brains are wired to notice movement. In the physical world, motion provides crucial information about cause and effect, spatial relationships, and the passage of time. The same principles apply to digital interfaces.</p>
@@ -148,11 +185,11 @@ src/
         <li><strong>Maintain consistency:</strong> Establish an animation system with consistent timing and easing</li>
       </ul>
       
-      <p>When done well, animation becomes invisible—users don't notice it consciously, but they feel the interface is more responsive and pleasant to use. That's the art of UI animation.</p>
+      <p>When done well, animation becomes invisible - users don't notice it consciously, but they feel the interface is more responsive and pleasant to use. That's the art of UI animation.</p>
     `
   },
   {
-    id: 4,
+    id: 5,
     title: "API Design Philosophy",
     category: "Backend",
     description: "Building APIs that developers love to use - principles for creating intuitive and robust interfaces.",
@@ -224,7 +261,7 @@ src/
       </pre>
       
       <h3>Documentation as a First-Class Citizen</h3>
-      <p>Documentation isn't an afterthought—it's part of your API's user interface:</p>
+      <p>Documentation isn't an afterthought - it's part of your API's user interface:</p>
       
       <ul>
         <li>Use OpenAPI/Swagger specifications</li>
@@ -284,9 +321,11 @@ export default function ArticleDetail() {
             <p className="article-detail-description">{article.description}</p>
           </div>
         </div>
-        <div className="article-detail-image">
-          <img src="https://via.placeholder.com/800x400/4A90E2/FFFFFF?text=Article" alt={article.title} />
-        </div>
+        {article.id === 1 && (
+          <div className="article-detail-image">
+            <img src="/images/articles/kill-the-npc.jpg" alt={article.title} />
+          </div>
+        )}
         <div 
           className="article-detail-content"
           dangerouslySetInnerHTML={{ __html: article.fullContent }}

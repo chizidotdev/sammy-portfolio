@@ -1,36 +1,36 @@
 import { Link } from 'react-router-dom'
 
 const HARDCODED_PROFILE = {
-  name: "Samuel",
-  description: "Hi, I'm Samuel, a software developer and design engineer based in Port Harcourt, Nigeria.",
-  bio: "I solve unique business problems for startups and business owners in finance and commerce. My projects are often focused on design systems, accessibility, typography, and animations.",
-  current_work: "Currently, I work with founders and business owners looking to build and scale their ideas with software solutions. If that sounds like you, let's connect!"
+  name: "Samuel Isirima",
+  description: "Hi, I am Samuel Isirima. I am a software engineer with 6+ years of experience building and architecting scalable software systems.",
+  bio: "A few years ago, I was debugging PHP in a tiny corner of a photo studio in Port Harcourt, Nigeria, with terrible WiFi. Today, I work with top-notch engineers and designers around the world to build software that solves real problems and helps businesses grow.",
+  current_work: "When I'm not writing code or debugging deployments on the cloud (which btw means someone else's computer), I'm playing some beautiful music on my guitar, lifting heavy weights at the gym, or riding a motorbike."
 }
 
 const HARDCODED_EXPERIENCE = [
   {
-    period: "2025 - now",
-    title: "Product Engineer",
-    company: "Contract & Consulting",
-    location: "Remote, NG"
+    period: "Mar 2024 - Apr 2025",
+    title: "Senior Full-Stack Engineer",
+    company: "Turing Client Company",
+    location: "California, USA (Remote)"
   },
   {
-    period: "2023 - 2025",
-    title: "CTO, Founding Engineer",
-    company: "Slimepay Finance",
-    location: "Remote, NG"
+    period: "May 2023 - Jan 2024",
+    title: "Full-Stack Engineer",
+    company: "Adsit Digital LLC",
+    location: "Virginia, USA (Remote)"
   },
   {
-    period: "2025 - 2022",
+    period: "Dec 2020 - Nov 2022",
     title: "Software Engineer",
-    company: "audIT",
-    location: "Remote, US"
+    company: "Arraund Technologies LLC",
+    location: "Port Harcourt, Nigeria"
   },
   {
-    period: "2025 - 2022",
-    title: "Frontend Developer",
-    company: "Cytecode",
-    location: "Port Harcourt, NG"
+    period: "Jan 2019 - Feb 2020",
+    title: "Junior Software Engineer",
+    company: "JS and N Farms",
+    location: "Port Harcourt, Nigeria"
   }
 ]
 
@@ -38,15 +38,15 @@ const FEATURED_ARTICLE = {
   id: 1,
   title: "Kill The NPC",
   category: "Life",
-  description: "Hi, I'm Samuel, a software developer and design engineer based in Port Harcourt, Nigeria.",
-  content: "I solve unique business problems for startups and business owners in finance and commerce. My projects are often focused on design systems, accessibility, typography, and animations. Currently, I work with founders and business owners looking to build and scale their ideas with software solutions. If that sounds like you, let's connect!"
+  description: "God said 'Thou shalt not kill,' then told his people to wipe out entire nations. Those people didn't matter to the story.",
+  content: "They were NPCs. Most people are NPCs and they have no idea. They wake up, go to work, do whatever their boss tells them, come home, watch Netflix, sleep, repeat. They're not good at anything specific. If they disappeared tomorrow, nothing would change."
 }
 
 function AvatarSection() {
   return (
     <section className="avatar-section">
       <div className="avatar-container">
-        <img src="./images/my-avatar.webp" alt="Samuel" />
+        <img src="./images/my-avatar.png" alt="Samuel" />
       </div>
     </section>
   )
@@ -104,7 +104,7 @@ function FeaturedArticleSection({ article }) {
       <div className="articles-grid">
         <article className="article-card">
           <div className="article-image">
-            <img src="https://via.placeholder.com/400x250/4A90E2/FFFFFF?text=Article" alt={article.title} />
+            <img src="/images/articles/kill-the-npc.jpg" alt={article.title} />
           </div>
           <div className="article-content">
             <div className="article-header">
