@@ -50,7 +50,7 @@ export default function Contact() {
           </a>
           
           <a 
-            href="mailto:samuel@example.com" 
+            href="mailto:psalmey01@gmail.com" 
             className="social-link"
           >
             <div className="social-icon email">
